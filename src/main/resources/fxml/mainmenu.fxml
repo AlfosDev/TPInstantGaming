@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="10" padding="10">
+    <HBox>
+        <Label text="MyAnimeList" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+    </HBox>
+
+    <!-- Section des recommandations -->
+    <VBox spacing="10">
+        <Label text="Recommandations" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+        <!-- Vous pouvez ajouter ici une ListView ou tout autre composant pour afficher les recommandations d'animes -->
+    </VBox>
+
+    <!-- Section des catégories -->
+    <VBox spacing="10">
+        <Label text="Catégories" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+        <!-- Vous pouvez ajouter ici une ListView ou tout autre composant pour afficher les catégories d'animes -->
+    </VBox>
+</VBox>
